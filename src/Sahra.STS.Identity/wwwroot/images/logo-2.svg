@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.168" height="29.426" viewBox="0 0 98.168 29.426">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#005194"/>
+      <stop offset="0.024" stop-color="#005194"/>
+      <stop offset="1" stop-color="#005fa0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.053" y1="0.908" x2="0.833" y2="0.235" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e7ab09"/>
+      <stop offset="0.542" stop-color="#f1ae04"/>
+      <stop offset="1" stop-color="#ffb300"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_11423" data-name="Group 11423" transform="translate(-2839.553 -1831.069)">
+    <g id="Group_212" data-name="Group 212" transform="translate(2839.553 1831.069)">
+      <path id="Path_217" data-name="Path 217" d="M2930.371,1849.675l10.51,10.728h-10.39l-8.954-9.55a1.551,1.551,0,0,1-.419-1.059v-.649a5.611,5.611,0,0,1,5.6-5.62h3.4v-5.149H2911.45v20.48a1.544,1.544,0,0,1-1.542,1.548h0a5.612,5.612,0,0,1-5.6-5.621v-4.833h-18.59v9.022a1.536,1.536,0,0,1-1.508,1.547,5.613,5.613,0,0,1-5.635-5.62v-22.216a1.544,1.544,0,0,1,1.542-1.547,5.612,5.612,0,0,1,5.6,5.62v6.026h18.59v-4.612a6.949,6.949,0,0,1,6.938-6.961H2930.3a6.948,6.948,0,0,1,6.937,6.96v4.614A6.881,6.881,0,0,1,2930.371,1849.675ZM2874,1859.938h-3.247l-9.1-.009c11.973-16.288-12.784-15.3-13.308-28.2v-.023l1.324,0H2874a1.459,1.459,0,0,1,1.457,1.461v25.315A1.459,1.459,0,0,1,2874,1859.938Z" transform="translate(-2842.712 -1831.092)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      <path id="Path_218" data-name="Path 218" d="M2867.932,1857.383a8.578,8.578,0,0,1-1.66,2.844h-14.02a6.944,6.944,0,0,1-6.944-6.969l.054-14.28a6.943,6.943,0,0,1,6.94-6.917l4.073,0a5.154,5.154,0,0,0-1.574,2.061C2850.854,1844.566,2871.888,1843.454,2867.932,1857.383Z" transform="translate(-2841.648 -1831.416)" fill="#005194" opacity="0.5" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <path id="Path_219" data-name="Path 219" d="M2839.671,1838.012v15.534a6.943,6.943,0,0,0,6.947,6.944l15.645-.008a8.041,8.041,0,0,0,2.3-3.446c3.957-13.931-17.351-12.219-13.131-23.263a5.8,5.8,0,0,1,2.48-2.7h-7.3A6.943,6.943,0,0,0,2839.671,1838.012Z" transform="translate(-2839.671 -1831.069)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>
