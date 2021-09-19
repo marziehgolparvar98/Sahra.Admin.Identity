@@ -21,13 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sahra.DataLayer", "Sahra.Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sahara.Common", "Sahara.Common\Sahara.Common.csproj", "{C5EC94C4-9E3C-4583-9E9B-821E91BEE137}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sahra.ViewModel", "Sahra.ViewModel\Sahra.ViewModel.csproj", "{0FE22DAA-FE25-4D10-8F26-2182DAAAD157}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sahra.ViewModel", "Sahra.ViewModel\Sahra.ViewModel.csproj", "{0FE22DAA-FE25-4D10-8F26-2182DAAAD157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sahra.Services", "Sahra.Services\Sahra.Services.csproj", "{467B82C1-69B8-46C0-8189-2DAEC5316A98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sahra.Services", "Sahra.Services\Sahra.Services.csproj", "{467B82C1-69B8-46C0-8189-2DAEC5316A98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sahra.Accelerator.Api", "Sahra.Accelerator.Api\Sahra.Accelerator.Api.csproj", "{D60F18CA-74C1-4E2B-815E-B41FADAE0D5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sahra.Accelerator.Api", "Sahra.Accelerator.Api\Sahra.Accelerator.Api.csproj", "{D60F18CA-74C1-4E2B-815E-B41FADAE0D5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESahra.Api", "ESahra.Api\ESahra.Api.csproj", "{EC4C6046-FD46-4F7E-8226-B6B9AA77AE7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ESahra.Api", "ESahra.Api\ESahra.Api.csproj", "{EC4C6046-FD46-4F7E-8226-B6B9AA77AE7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sahra.Admin.UI", "Sahra.Admin.UI\Sahra.Admin.UI.csproj", "{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,18 @@ Global
 		{EC4C6046-FD46-4F7E-8226-B6B9AA77AE7F}.Release|x64.Build.0 = Release|Any CPU
 		{EC4C6046-FD46-4F7E-8226-B6B9AA77AE7F}.Release|x86.ActiveCfg = Release|Any CPU
 		{EC4C6046-FD46-4F7E-8226-B6B9AA77AE7F}.Release|x86.Build.0 = Release|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Debug|x64.Build.0 = Debug|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Debug|x86.Build.0 = Debug|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Release|x64.ActiveCfg = Release|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Release|x64.Build.0 = Release|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Release|x86.ActiveCfg = Release|Any CPU
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -194,6 +208,7 @@ Global
 		{829F4A9A-60F9-46D7-A5BD-B7294B7E7AF9} = {87CEDBD3-E2BA-49BD-9B8B-45498D3CD502}
 		{8371BB90-CE9D-4F4F-B03A-1F1A909C84B8} = {87CEDBD3-E2BA-49BD-9B8B-45498D3CD502}
 		{49E230D3-53AB-46E8-8E27-F4B15224DAD4} = {87CEDBD3-E2BA-49BD-9B8B-45498D3CD502}
+		{2F19DEC9-713E-4748-87FE-3A9BDC885E5F} = {87CEDBD3-E2BA-49BD-9B8B-45498D3CD502}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7297671D-A216-4EDA-86C9-E6854413CEC0}

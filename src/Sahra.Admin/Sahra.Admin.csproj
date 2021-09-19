@@ -48,7 +48,6 @@
         <PackageReference Include="Serilog.Sinks.Seq" Version="5.0.1" />
         <PackageReference Include="Skoruba.IdentityServer4.Admin.BusinessLogic" Version="2.0.1" />
         <PackageReference Include="Skoruba.IdentityServer4.Admin.BusinessLogic.Identity" Version="2.0.1" />
-        <PackageReference Include="Skoruba.IdentityServer4.Admin.UI" Version="2.0.1" />
     </ItemGroup>
 
     <ItemGroup>
@@ -56,6 +55,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\..\Sahra.Admin.UI\Sahra.Admin.UI.csproj" />
         <ProjectReference Include="..\Sahra.Admin.EntityFramework.Shared\Sahra.Admin.EntityFramework.Shared.csproj" />
         <ProjectReference Include="..\Sahra.Admin.EntityFramework.SqlServer\Sahra.Admin.EntityFramework.SqlServer.csproj" />
         <ProjectReference Include="..\Sahra.Shared\Sahra.Shared.csproj" />
