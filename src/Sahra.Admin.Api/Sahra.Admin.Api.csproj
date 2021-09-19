@@ -50,7 +50,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\Sahra.Admin.UI\Sahra.Admin.UI.csproj" />
         <ProjectReference Include="..\Sahra.Admin.EntityFramework.Shared\Sahra.Admin.EntityFramework.Shared.csproj" />
         <ProjectReference Include="..\Sahra.Admin.EntityFramework.SqlServer\Sahra.Admin.EntityFramework.SqlServer.csproj" />
         <ProjectReference Include="..\Sahra.Shared\Sahra.Shared.csproj" />
