@@ -12,6 +12,17 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="logo-2.svg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="logo-2.svg">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="AspNetCore.HealthChecks.MySql" Version="5.0.1" />
         <PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="5.0.2" />
         <PackageReference Include="AspNetCore.HealthChecks.OpenIdConnectServer" Version="5.0.1" />
