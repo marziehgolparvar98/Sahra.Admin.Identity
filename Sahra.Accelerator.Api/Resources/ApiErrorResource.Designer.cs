@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sahra.Admin.Api.Resources {
+namespace Sahra.Accelerator.Api.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Sahra.Admin.Api.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Sahra.Admin.Api.Resources.ApiErrorResource", typeof(ApiErrorResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Sahra.Accelerator.Api.Resources.ApiErrorResource", typeof(ApiErrorResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -70,11 +70,3 @@ namespace Sahra.Admin.Api.Resources {
         }
     }
 }
-
-
-
-
-
-
-
-
