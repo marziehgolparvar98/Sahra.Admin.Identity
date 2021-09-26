@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using HealthChecks.UI.Client;
+﻿using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -9,18 +6,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Sahra.Admin.Api.Configuration;
-using Sahra.Admin.Api.Configuration.Authorization;
-using Sahra.Admin.Api.ExceptionHandling;
-using Sahra.Admin.Api.Helpers;
-using Sahra.Admin.Api.Mappers;
-using Sahra.Admin.Api.Resources;
 using Sahra.Admin.EntityFramework.Shared.DbContexts;
 using Sahra.Admin.EntityFramework.Shared.Entities.Identity;
-using Skoruba.IdentityServer4.Shared.Configuration.Helpers;
 using Sahra.Shared.Dtos;
 using Sahra.Shared.Dtos.Identity;
+using Skoruba.AuditLogging.EntityFramework.Entities;
+using Skoruba.IdentityServer4.Shared.Configuration.Helpers;
+using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace Sahra.Admin.Api
 {

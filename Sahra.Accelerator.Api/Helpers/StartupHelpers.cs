@@ -1,5 +1,4 @@
-﻿using System;
-using IdentityModel;
+﻿using IdentityModel;
 using IdentityServer4.EntityFramework.Options;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -10,16 +9,16 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using Skoruba.AuditLogging.EntityFramework.DbContexts;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.AuditLogging.EntityFramework.Extensions;
-using Skoruba.AuditLogging.EntityFramework.Repositories;
-using Skoruba.AuditLogging.EntityFramework.Services;
 using Sahra.Admin.Api.AuditLogging;
 using Sahra.Admin.Api.Configuration;
 using Sahra.Admin.Api.Configuration.ApplicationParts;
 using Sahra.Admin.Api.Configuration.Constants;
 using Sahra.Admin.Api.Helpers.Localization;
+using Skoruba.AuditLogging.EntityFramework.DbContexts;
+using Skoruba.AuditLogging.EntityFramework.Entities;
+using Skoruba.AuditLogging.EntityFramework.Extensions;
+using Skoruba.AuditLogging.EntityFramework.Repositories;
+using Skoruba.AuditLogging.EntityFramework.Services;
 using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
 using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration;
 using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.MySql;
@@ -27,6 +26,7 @@ using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.PostgreSQL;
 using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.SqlServer;
 using Skoruba.IdentityServer4.Admin.EntityFramework.Helpers;
 using Skoruba.IdentityServer4.Admin.EntityFramework.Interfaces;
+using System;
 
 namespace Sahra.Admin.Api.Helpers
 {
