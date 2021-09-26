@@ -175,7 +175,7 @@ namespace Sahra.Accelerator.api
 
             app.UseHttpsRedirection();
 
-            //  app.SeedData();
+             app.AccelaratorSeedData();
 
             app.UseRouting();
 
